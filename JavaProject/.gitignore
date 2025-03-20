@@ -1,0 +1,43 @@
+# NetBeans specific files
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nb-configuration.xml
+nbactions.xml
+
+# NetBeans IDE files
+.netbeans/
+netbeans.xml
+
+# Class files and package files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# Build tool specific files
+target/
+.gradle/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# IDE specific - if you use other IDEs too
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
