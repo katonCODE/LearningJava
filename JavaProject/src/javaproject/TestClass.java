@@ -8,7 +8,7 @@ package javaproject;
  *
  * @author daniel
  */
-public class JavaProject {
+public class TestClass {
 
     /**
      * @param args the command line arguments
