@@ -22,9 +22,10 @@ public class Stack<E> {
 
     public E pop(){
         if(numElements > 0){
-            E temp = elements[(numElements - 1)];
-            numElements--; 
-            return temp;
+            return elements[(--numElements)];
+            //need to decrease number of elements before returning otherwise it may 
+            //return out of bounds or return the wrong element
+            
         }
 
         return null;
