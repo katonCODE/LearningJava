@@ -33,12 +33,13 @@ public class LinkedQueue<E> {
     }
 
     public E dequeue() {
-        Node<E> toReturn = head;
-        E returnData = toReturn.data;
 
         if (numElements == 0) {
             return null;
         }
+
+        Node<E> toReturn = head;
+        E returnData = toReturn.data;
 
         head = head.next;
 
@@ -47,6 +48,8 @@ public class LinkedQueue<E> {
         } else {
             head.prev = null;
         }
+
+        numElements--;
 
         return returnData;
 
