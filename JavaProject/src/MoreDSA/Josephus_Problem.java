@@ -19,8 +19,6 @@ public class Josephus_Problem {
             soldiersList.enqueue(i);
         }
 
-        System.out.println(soldiersList);
-
         int counter = m_th - 1;
 
         while (soldiersList.size() > 1) {

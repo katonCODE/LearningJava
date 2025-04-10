@@ -13,7 +13,7 @@ public class NumberGuesser {
         while (lower_bound < upper_bound) {
             int guess = ((upper_bound + lower_bound) / 2);
 
-            String guessing = "is your number: " + guess + " l for lower, h for higher";
+            String guessing = "is your number: " + guess + " ( l for lower, h for higher )";
 
             System.out.println(guessing);
             input = scan.nextLine();
